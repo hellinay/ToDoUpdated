@@ -1,10 +1,9 @@
-package com.codinginflow.ToDoUpdatedVer.dependencyInjection
+package com.helin.ToDoUpdatedVer.dependencyInjection
 
 
 import android.app.Application
-import androidx.room.CoroutinesRoom
 import androidx.room.Room
-import com.codinginflow.ToDoUpdatedVer.classes.TaskDB
+import com.helin.ToDoUpdatedVer.classes.TaskDB
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

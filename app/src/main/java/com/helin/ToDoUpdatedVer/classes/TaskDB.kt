@@ -1,12 +1,10 @@
-package com.codinginflow.ToDoUpdatedVer.classes
+package com.helin.ToDoUpdatedVer.classes
 
 import androidx.room.Database
-import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.codinginflow.ToDoUpdatedVer.dependencyInjection.AppScope
+import com.helin.ToDoUpdatedVer.dependencyInjection.AppScope
 import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 import javax.inject.Provider

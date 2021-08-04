@@ -1,14 +1,11 @@
-package com.codinginflow.ToDoUpdatedVer.UI.tasks
+package com.helin.ToDoUpdatedVer.UI.tasks
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.LayoutManager
-import com.codinginflow.ToDoUpdatedVer.R
-import com.codinginflow.ToDoUpdatedVer.databinding.FragmentTasksBinding
+import com.helin.ToDoUpdatedVer.R
+import com.helin.ToDoUpdatedVer.databinding.FragmentTasksBinding
 
 class TasksFragment : Fragment(R.layout.fragment_tasks) {
 
