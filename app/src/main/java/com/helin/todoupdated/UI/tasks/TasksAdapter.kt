@@ -1,4 +1,4 @@
-package com.helin.ToDoUpdatedVer.UI.tasks
+package com.helin.todoupdated.UI.tasks
 
 
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.helin.ToDoUpdatedVer.classes.Task
-import com.helin.ToDoUpdatedVer.databinding.CardviewTaskBinding
+import com.helin.todoupdated.classes.Task
+import com.helin.todoupdated.databinding.CardviewTaskBinding
 
 class TasksAdapter : ListAdapter<Task,TasksAdapter.TasksViewHolder>(DiffCallBack()){ //we always get new list
 

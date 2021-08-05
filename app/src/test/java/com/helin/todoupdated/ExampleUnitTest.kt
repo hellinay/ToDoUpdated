@@ -1,4 +1,4 @@
-package com.helin.ToDoUpdatedVer
+package com.helin.todoupdated
 
 import org.junit.Test
 

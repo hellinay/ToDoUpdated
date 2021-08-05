@@ -1,8 +1,8 @@
-package com.helin.ToDoUpdatedVer.UI
+package com.helin.todoupdated.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.helin.ToDoUpdatedVer.R
+import com.helin.todoupdated.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

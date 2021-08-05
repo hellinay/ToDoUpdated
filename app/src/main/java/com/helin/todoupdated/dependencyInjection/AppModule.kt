@@ -1,9 +1,9 @@
-package com.helin.ToDoUpdatedVer.dependencyInjection
+package com.helin.todoupdated.dependencyInjection
 
 
 import android.app.Application
 import androidx.room.Room
-import com.helin.ToDoUpdatedVer.classes.TaskDB
+import com.helin.todoupdated.classes.TaskDB
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

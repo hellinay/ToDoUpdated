@@ -1,9 +1,9 @@
-package com.helin.ToDoUpdatedVer.classes
+package com.helin.todoupdated.classes
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.helin.ToDoUpdatedVer.dependencyInjection.AppScope
+import com.helin.todoupdated.dependencyInjection.AppScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject

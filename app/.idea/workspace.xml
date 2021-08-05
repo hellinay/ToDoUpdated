@@ -3,8 +3,45 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="59a86505-b207-4b57-90d3-bda39e11aa23" name="Default Changelist" comment="" />
+    <list default="true" id="59a86505-b207-4b57-90d3-bda39e11aa23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/androidTest/java/com/helin/ToDoUpdatedVer/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/androidTest/java/com/helin/todoupdated/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/ToDoApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/ToDoApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/UI/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/UI/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/UI/tasks/TasksAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/UI/tasks/TasksAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/UI/tasks/TasksFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/UI/tasks/TasksFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/UI/tasks/TasksVM.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/UI/tasks/TasksVM.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/classes/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/classes/Task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/classes/TaskDB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/classes/TaskDB.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/classes/TaskDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/classes/TaskDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/helin/ToDoUpdatedVer/dependencyInjection/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helin/todoupdated/dependencyInjection/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/helin/ToDoUpdatedVer/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/helin/todoupdated/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +59,11 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1wBX3rBiA7SqA0phfRJLMI6qNbk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,5 +84,22 @@
       <updated>1627932758580</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1628145778518">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/2400.0.1920.1040@0.0.1536.824" timestamp="1628145778518" />
   </component>
 </project>

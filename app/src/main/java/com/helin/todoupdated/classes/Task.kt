@@ -1,4 +1,4 @@
-package com.helin.ToDoUpdatedVer.classes
+package com.helin.todoupdated.classes
 
 import android.os.Parcelable
 import androidx.room.Entity

@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/item_search"
         android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        >
+    </item>
+    <item
+        android:icon="@drawable/ic_sort"
+        android:title="Sort"
+        app:showAsAction="always"
+        >
+        <menu>
+<!--for sub menu items in sort-->
+            <item
+                android:title="Sort by name"
+                android:id="@+id/action_sortbyname"
+                ></item>
+            <item
+                android:title="Sort by date"
+                android:id="@+id/action_sortbydate">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:title="Hide completed"
+        android:id="@+id/action_hidecompleted"
+        app:showAsAction="never"
+        android:checkable="true"
+        tools:ignore="HardcodedText"></item>
+    <item
+        android:title="Delete completed ones"
+        android:id="@+id/action_deletecompleted"
+        app:showAsAction="never"
         ></item>
+
 
 </menu>
