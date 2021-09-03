@@ -98,7 +98,7 @@ class TasksFragment : Fragment(R.layout.fragment_tasks), TasksAdapter.OnItemClic
                     is TasksVM.TasksEvent.showTaskSavedConfirmationMsg -> {
                         Snackbar.make(requireView(),event.msg,Snackbar.LENGTH_SHORT).show()
                     }
-                    TasksVM.TasksEvent.NavigateDoneToDeleteAllScreen -> {
+                    is TasksVM.TasksEvent.NavigateDoneToDeleteAllScreen -> {
                         val action=TasksFragmentDirections.actionGlobalDeleteAllCompDialogFragment()
                     findNavController().navigate(action)
                         }
