@@ -3,12 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
+    android:label="Tasks"
     app:startDestination="@id/tasksFragment">
 
     <fragment
         android:id="@+id/tasksFragment"
         android:name="com.helin.todoupdated.UI.tasks.TasksFragment"
         android:label="fragment_tasks"
-        tools:layout="@layout/fragment_tasks" />
+        tools:layout="@layout/fragment_tasks">
+        <action
+            android:id="@+id/action_tasksFragment_to_addEditTaskFragment"
+            app:destination="@id/addEditTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addEditTaskFragment"
+        android:name="com.helin.todoupdated.UI.addedittask.AddEditTaskFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_addedit_task">
+        <argument
+            android:name="task"
+            android:defaultValue="@null"
+            app:argType="com.helin.todoupdated.classes.Task"
+            app:nullable="true" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/deleteAllCompDialogFragment"
+        android:name="com.helin.todoupdated.UI.deleteallcomp.DeleteAllCompDialogFragment"
+        android:label="DeleteAllCompDialogFragment" /><action android:id="@+id/action_global_deleteAllCompDialogFragment" app:destination="@id/deleteAllCompDialogFragment"/>
 
 </navigation>

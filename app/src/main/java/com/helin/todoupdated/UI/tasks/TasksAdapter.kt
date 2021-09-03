@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.helin.todoupdated.classes.Task
 import com.helin.todoupdated.databinding.CardviewTaskBinding
 
-class TasksAdapter : ListAdapter<Task,TasksAdapter.TasksViewHolder>(DiffCallBack()){ //we always get new list
+class TasksAdapter(private val listener:OnItemClickListener) : ListAdapter<Task,TasksAdapter.TasksViewHolder>(DiffCallBack()){ //we always get new list
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TasksViewHolder {
         //create binding object
@@ -23,7 +23,26 @@ class TasksAdapter : ListAdapter<Task,TasksAdapter.TasksViewHolder>(DiffCallBack
         holder.bind(currentItem) //bind item at the current position
     }
 
-    class TasksViewHolder(private val binding:CardviewTaskBinding):RecyclerView.ViewHolder(binding.root){
+    inner class TasksViewHolder(private val binding:CardviewTaskBinding):RecyclerView.ViewHolder(binding.root){
+//inner is static in java
+        init {
+            binding.apply {
+                root.setOnClickListener {
+                    val position = adapterPosition
+                    if (position != RecyclerView.NO_POSITION) {
+                        val task = getItem(position)
+                        listener.onItemClick(task)
+                    }
+                }
+                checkBoxCompleted.setOnClickListener {
+                    val position = adapterPosition
+                    if (position != RecyclerView.NO_POSITION) {
+                        val task = getItem(position)
+                        listener.onCheckBoxClick(task, checkBoxCompleted.isChecked)
+                    }
+                }
+            }
+        }
 
         fun bind(task:Task){
             binding.apply { //apply enables multiple without writing binding everytime
@@ -33,6 +52,11 @@ class TasksAdapter : ListAdapter<Task,TasksAdapter.TasksViewHolder>(DiffCallBack
                 imagePriority.isVisible=task.important
             }
         }
+    }
+
+    interface OnItemClickListener {
+        fun onItemClick(task: Task)
+        fun onCheckBoxClick(task: Task, isChecked: Boolean)
     }
 
     class DiffCallBack : DiffUtil.ItemCallback<Task>()//to enable Adapter detect changes bw items

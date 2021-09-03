@@ -9,7 +9,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 import javax.inject.Provider
 
-@Database(entities = [Task::class],version = 1)
+@Database(entities = [Task::class],version = 3)
 abstract class TaskDB: RoomDatabase() {
 
     abstract fun taskDao():TaskDao
@@ -37,5 +37,6 @@ abstract class TaskDB: RoomDatabase() {
 
 
         }
+
     }
 }
