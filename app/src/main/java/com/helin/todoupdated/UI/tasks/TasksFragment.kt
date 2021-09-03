@@ -14,11 +14,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.helin.todoupdated.R
 import com.helin.todoupdated.UI.addedittask.exhaustive
-import com.helin.todoupdated.classes.PreferencesManager
 import com.helin.todoupdated.classes.SortOrder
 import com.helin.todoupdated.classes.Task
 import com.helin.todoupdated.databinding.FragmentTasksBinding
