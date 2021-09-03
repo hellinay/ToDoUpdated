@@ -29,7 +29,7 @@
             android:name="title"
             app:argType="string" />
     </fragment>
-    <fragment
+    <dialog
         android:id="@+id/deleteAllCompDialogFragment"
         android:name="com.helin.todoupdated.UI.deleteallcomp.DeleteAllCompDialogFragment"
         android:label="DeleteAllCompDialogFragment" /><action android:id="@+id/action_global_deleteAllCompDialogFragment" app:destination="@id/deleteAllCompDialogFragment"/>
